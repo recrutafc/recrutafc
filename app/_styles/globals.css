@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply antialiased;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd0da #303030;
+}
+
+::selection {
+  background-color: #303030;
+  color: #f4eefe;
+}
+
+*::-webkit-scrollbar {
+  width: 1px;
+  height: 1px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #2a2a32;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #f4eefe;
+  border-radius: 15px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #f4eefe;
+}
+
+body {
+  color: var(--foreground);
+  background: #cbd0da;
+  font-family: "OpenSans", Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #252e40;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
+
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
