@@ -6,7 +6,7 @@ interface AttributeCardProps {
 
 const AttributeCard: React.FC<AttributeCardProps> = ({ icon, title, text }) => {
   return (
-    <div className="flex items-start p-4 rounded-lg cursor-default hover:bg-gradient-to-b hover:shadow-md from-colors-mainWhite to-colors-mainGray200">
+    <div className="flex items-start p-4 rounded-lg cursor-default bg-gradient-to-b shadow-md from-colors-mainWhite to-colors-mainGray200">
       <div>
         <div className="flex mb-1">
           {icon}

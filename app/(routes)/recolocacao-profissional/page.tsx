@@ -93,7 +93,7 @@ export default function SelectionPage () {
               <span className="flex flex-col items-start">
                 <ServiceTitle>Bem Vindo (a)</ServiceTitle> 
               </span>
-              <h1 className="text-5xl font-extrabold mb-4 max-lg:text-3xl text-colors-mainBlue900">
+              <h1 className="text-3xl font-extrabold mb-4 max-lg:text-2xl text-colors-mainBlue900 uppercase">
                  Recolocação e Transição Profissional
               </h1>
               <p className="text-xl text-colors-mainGray400 mb-9 max-lg:text-base">
@@ -132,7 +132,7 @@ export default function SelectionPage () {
           </div>
 
           <div>
-            <h2 className="text-4xl font-extrabold text-center mb-6 max-lg:text-3xl text-colors-mainBlue900">
+            <h2 className="text-3xl font-extrabold text-center mb-6 max-lg:text-2xl text-colors-mainBlue900 uppercase">
               Estrutura De Recolocação Profissional
             </h2>
             <p className="text-xl text-colors-mainGray400 mb-9 max-lg:text-base text-center">
@@ -174,7 +174,7 @@ export default function SelectionPage () {
                 <ServiceTitle>Contato</ServiceTitle>
               </span>
               <div className="flex justify-between max-lg:flex-col">
-                <h3 className="text-4xl font-extrabold mb-6 max-lg:text-3xl max-w-[500px] text-colors-mainBlue900">
+                <h3 className="text-3xl font-extrabold mb-6 max-lg:text-2xl max-w-[500px] text-colors-mainBlue900 uppercase">
                   Pronto para <br/> transformar sua <br/>carreira?
                 </h3>
                 <p className="max-w-[693px] max-lg:min-w-full mt-4 text-xl text-colors-mainGray400 mb-9 max-lg:text-base">

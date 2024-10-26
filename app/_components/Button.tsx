@@ -20,7 +20,7 @@ const Button: React.FC<ButtonProps> = ({
   const styles = {
     1: `${baseStyle} bg-gradient-to-b from-colors-mainBlue900 to-colors-mainBlue900 text-colors-mainWhite delay-150 ease-in-out hover:to-colors-mainGray600`,
     2: `${baseStyle} bg-gradient-to-b from-colors-mainWhite to-colors-mainWhite text-colors-mainBlue900 hover:to-colors-mainGray600 delay-150 ease-in-out `,
-    3: `${baseStyle} bg-gradient-to-b from-colors-mainGray600 to-colors-mainGray600 text-colors-mainWhite delay-150 ease-in-out hover:to-colors-mainWhite`,
+    3: `${baseStyle} bg-gradient-to-b from-colors-mainGray600 to-colors-mainGray600 text-colors-mainWhite delay-150 ease-in-out hover:to-colors-mainWhite uppercase`,
     4: `${baseStyle} bg-gradient-to-b from-colors-mainWhite to-colors-mainGray200 hover:from-colors-mainWhite text-colors-mainBlue900 hover:bg-colors-mainGray600 delay-150 ease-in-out`,
   }
 

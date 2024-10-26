@@ -12,7 +12,7 @@ export default function Hero() {
           height={51}
           className="mb-4"
         />
-        <h1 className="text-5xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-3xl">
+        <h1 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl uppercase">
           Seleção Exclusiva e Personalizada
         </h1>
         <p className="text-center text-xl text-colors-mainGray400 mb-9 max-lg:text-base">
@@ -30,7 +30,7 @@ export default function Hero() {
             Vagas
           </Button>
         </div>
-        <div className="flex">
+        {/* <div className="flex">
           <div className="flex relative min-w-[90px] min-h-[40px]">
             <Image
               src="/profile/1.webp"
@@ -57,7 +57,7 @@ export default function Hero() {
           <p className="text-colors-mainGray400 ml-4 font-medium">
             Mais de 500+ clientes <br /> satisfeitos
           </p>
-        </div>
+        </div> */}
         
       </div>
     </section>

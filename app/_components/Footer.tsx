@@ -19,7 +19,7 @@ export default function Footer() {
                 Atendimento Online
               </h3>
               <p className="text-colors-mainGray200 mb-4">
-                (16) 996-093-789 <br /> recrutafc@hotmail.com <br /> Segunda à Sexta
+                (16) 9 9609-3789 <br /> recrutafc@hotmail.com <br /> Segunda à Sexta
                 das 8h às 18h <br />
               </p>
             </div>

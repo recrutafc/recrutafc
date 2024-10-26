@@ -8,7 +8,7 @@ export default function Services() {
         <div className="max-w-[1400px] mx-auto py-9">
           <div className="max-w-[833px] mx-auto flex flex-col items-center">
             <ServiceTitle>Serviços</ServiceTitle>
-            <h2 className="text-4xl font-extrabold text-colors-mainBlue900 text-center mb-6 max-lg:text-2xl">
+            <h2 className="text-3xl font-extrabold text-colors-mainBlue900 text-center mb-6 max-lg:text-2xl uppercase">
               Nossos Serviços Vão Te Surpreender
             </h2>
             <p className="text-xl text-colors-mainGray400 text-center max-lg:text-base">

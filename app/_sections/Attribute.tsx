@@ -14,7 +14,7 @@ export default function Attribute() {
       <section className="bg-[url('/bg-pattern.svg')] bg-center bg-no-repeat px-4">
         <div className="max-w-[1400px] mx-auto flex flex-col justify-between items-center py-[100px]">
           <ServiceTitle>Características</ServiceTitle>
-          <h2 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl">
+          <h2 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl uppercase">
             Sua Solução Para Recrutamento Eficiente
           </h2>
           <p className="text-center text-xl text-colors-mainGray400 mb-9 max-lg:text-base">

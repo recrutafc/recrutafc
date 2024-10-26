@@ -94,14 +94,14 @@ export default function SelectionPage () {
               <span className="flex flex-col items-start">
                 <ServiceTitle>Bem Vindo (a)</ServiceTitle> 
               </span>
-              <h1 className="text-5xl font-extrabold mb-4 max-lg:text-3xl text-colors-mainBlue900">
+              <h1 className="text-3xl font-extrabold mb-4 max-lg:text-2xl text-colors-mainBlue900 uppercase">
                 Recrutamento e Seleção
               </h1>
               <p className="text-xl text-colors-mainGray400 mb-9 max-lg:text-base">
                 Eleve o nível do seu recrutamento! Entre em contato com a Recruta F&C e encontre os melhores talentos para sua empresa.
               </p>
 
-              <div className="flex pb-9">
+              {/* <div className="flex pb-9">
                 <div className="flex relative min-w-[90px] min-h-[40px]">
                   <Image
                     src="/profile/1.webp"
@@ -128,7 +128,7 @@ export default function SelectionPage () {
                 <p className="text-colors-mainGray400 ml-4 font-medium">
                   Mais de 500+ clientes <br /> satisfeitos
                 </p>
-              </div>
+              </div> */}
 
               <div className="min-w-[366px] flex gap-9 mb-9">
                 <Button href="#form" styleType="1" maxWidth={200} redirect="">
@@ -162,7 +162,7 @@ export default function SelectionPage () {
           </div>
 
           <div>
-            <h2 className="text-4xl font-extrabold text-center mb-6 max-lg:text-3xl text-colors-mainBlue900">Como Funciona Nosso Processo De Recrutamento?</h2>
+            <h2 className="text-3xl font-extrabold text-center mb-6 max-lg:text-2xl text-colors-mainBlue900 uppercase">Como Funciona Nosso Processo De Recrutamento?</h2>
             <p className="text-xl text-colors-mainGray400 mb-9 max-lg:text-base text-center">
               Na Recruta F&C, cada serviço é cuidadosamente projetado para atender às
                necessidades exclusivas da sua empresa. Desde a análise minuciosa dos candidatos até
@@ -205,7 +205,7 @@ export default function SelectionPage () {
                 <ServiceTitle>Contato</ServiceTitle>
               </span>
               <div className="flex justify-between max-lg:flex-col">
-                <h3 className="text-4xl font-extrabold mb-6 max-lg:text-3xl max-w-[500px] text-colors-mainBlue900">
+                <h3 className="text-3xl font-extrabold mb-6 max-lg:text-2xl max-w-[500px] text-colors-mainBlue900 uppercase">
                   Garanta para sua empresa o melhor processo de recrutamento!
                 </h3>
                 <p className="max-w-[693px] max-lg:min-w-full mt-4 text-xl text-colors-mainGray400 mb-9 max-lg:text-base">

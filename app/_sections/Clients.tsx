@@ -10,7 +10,7 @@ export default function Clients() {
       <section className="relative flex overflow-x-hidden flex-col bg-[url('/bg-pattern.svg')] bg-center bg-no-repeat py-[100px]">
         <div className="flex flex-col justify-center items-center">
           <ServiceTitle>Clientes</ServiceTitle>
-          <h2 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl">
+          <h2 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl uppercase">
             Junte-se às Empresas que
             <br /> Confiam Em Nós
           </h2>
@@ -41,7 +41,7 @@ export default function Clients() {
             className="absolute bottom-4 right-4"
           />
           <div className="max-md:mb-6">
-            <h2 className="text-3xl font-extrabold bg-gradient-to-r from-colors-mainWhite to-colors-mainGray600 bg-clip-text text-transparent mb-4 max-lg:text-2xl">
+            <h2 className="text-3xl font-extrabold bg-gradient-to-r from-colors-mainWhite to-colors-mainGray600 bg-clip-text text-transparent mb-4 max-lg:text-2xl uppercase">
               Eleve Suas Contratações!
             </h2>
             <p className="text-xl text-colors-mainGray200 max-lg:text-base">
@@ -49,8 +49,8 @@ export default function Clients() {
               empresa.
             </p>
           </div>
-          <div className='flex gap-4 w-full max-w-[346px] max-md:min-w-full'>
-            <Button styleType="3" href="/contato" maxWidth={200} redirect=''>
+          <div className='flex gap-4 w-full max-w-[380px] max-md:min-w-full'>
+            <Button styleType="3" href="/contato" maxWidth={240} redirect=''>
               Entrar Em Contato
             </Button>
             <Button styleType="2" href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre a Recruta FC." maxWidth={130} redirect='1' aria-label='Botão ir para WhatsApp'>

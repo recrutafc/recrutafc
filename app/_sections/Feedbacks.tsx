@@ -15,7 +15,7 @@ export default function Feedbacks() {
         <div className="max-w-[1400px] mx-auto py-[100px]">
           <div className="flex flex-col justify-center items-center">
             <ServiceTitle>Depoimentos</ServiceTitle>
-            <h2 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl">
+            <h2 className="text-3xl text-center font-extrabold text-colors-mainBlue900 mb-4 max-lg:text-2xl uppercase">
               O Que Nossos Clientes Falam <br />
               Sobre Nós
             </h2>
