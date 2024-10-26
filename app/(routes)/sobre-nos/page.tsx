@@ -26,7 +26,7 @@ export default function SobreNos () {
               <span className="flex flex-col items-start">
                 <ServiceTitle>Bem Vindo (a)</ServiceTitle> 
               </span>
-              <h2 className="text-5xl font-extrabold mb-4 max-lg:text-3xl text-colors-mainBlue900">
+              <h2 className="text-3xl font-extrabold mb-4 max-lg:text-2xl text-colors-mainBlue900  uppercase">
                  Sobre Nós
               </h2>
               <span className="text-xl text-colors-mainGray400 mb-9 max-lg:text-base block">
@@ -68,7 +68,7 @@ export default function SobreNos () {
             <span className="flex flex-col items-start">
               <ServiceTitle>Missão</ServiceTitle> 
             </span>
-            <h2 className="text-4xl font-extrabold mb-6 max-lg:text-2xl text-colors-mainBlue900">
+            <h2 className="text-3xl font-extrabold mb-6 max-lg:text-2xl text-colors-mainBlue900 uppercase">
               Nossa Missão
             </h2>
             <p className="text-xl max-w-[1100px] text-center text-colors-mainGray400 mb-9 max-lg:text-base">
@@ -100,7 +100,7 @@ export default function SobreNos () {
             <div className="max-w-[1400px] mx-auto py-[50px]">
               <div className="flex flex-col justify-center items-center">
                 <ServiceTitle>Equipe</ServiceTitle>
-                <h2 className="text-4xl font-extrabold mb-6 max-lg:text-3xl text-colors-mainBlue900 ">
+                <h2 className="text-3xl font-extrabold mb-6 max-lg:text-3xl text-colors-mainBlue900 uppercase">
                   Nossa Equipe
                 </h2>
               </div>
@@ -148,7 +148,7 @@ export default function SobreNos () {
                 <ServiceTitle>Contato</ServiceTitle>
               </span>
               <div className="flex justify-between max-lg:flex-col">
-                <h3 className="text-4xl font-extrabold mb-6 max-lg:text-2xl max-w-[500px] text-colors-mainBlue900">
+                <h3 className="text-3xl font-extrabold mb-6 max-lg:text-2xl max-w-[500px] text-colors-mainBlue900 uppercase">
                   Pronto para <br/> transformar sua <br/>carreira?
                 </h3>
                 <p className="max-w-[693px] max-lg:min-w-full mt-4 text-xl text-colors-mainGray400 mb-9 max-lg:text-base">
