@@ -118,18 +118,18 @@ export default function SobreNos () {
                   <CarouselItem>
                     <EquipeCard
                       name="Gustavo P. Castro"
-                      prof="Co-fundador e Consultor de Carreira"
+                      prof="Consultor de Carreira"
                       descProf="Administrador, formado pela UNISEB COC/FGV. Desde 2010 atuo na área e trago comigo experiencias em empresas de diversos ramos e tendo ocupado cargos de Comprador, Assistente Adm. Comercial e Logístico, Coordenador de Eventos e Vendas de Multipropriedades."
-                      image="/profile/1.webp"
+                      image="/profile/a2.webp"
                       feedback="“A base para a execução de um serviço de assessoria pessoal personalizada que beire a excelência parte de uma estruturação empresarial e uma cultura organizacional bem definida aonde a busca é sempre pela transparência, profissionalismo e a humanização dos nossos processos do início ao fim, com foco total no resultado final e realização profissional de nossos clientes”"
                     />
                   </CarouselItem>
                   <CarouselItem>
                     <EquipeCard
                       name="Ígor N. Fernandes"
-                      prof="Co-fundador e Especialista em Recrutamento"
+                      prof="Especialista em Recrutamento"
                       descProf="Psicólogo, com especialização em saúde mental e liderança para gestão de pessoas. Atuo no ramo de Recursos Humanos desde o ano de 2013, tendo passado por empresas de call-center, consultorias e tecnologia, tanto nacionais quanto multinacionais. Especialista no subsistema de Recrutamento e Seleção e na área de Recolocação Profissional."
-                      image="/profile/1.webp"
+                      image="/profile/a1.webp"
                       feedback="“Quando trabalhamos com pessoas, estamos lidando com sonhos e objetivos pessoais e/ou profissionais variados, isso fez com que eu sempre buscasse humanizar meus processos, com foco primeiramente em entender a necessidade e o perfil de cada indivíduo para então assim direcionar e alinhar tudo ao objetivo profissional final almejado pelo mesmo”"
                     />
                   </CarouselItem>

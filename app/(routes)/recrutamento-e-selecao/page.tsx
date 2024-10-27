@@ -101,35 +101,6 @@ export default function SelectionPage () {
                 Eleve o nível do seu recrutamento! Entre em contato com a Recruta F&C e encontre os melhores talentos para sua empresa.
               </p>
 
-              {/* <div className="flex pb-9">
-                <div className="flex relative min-w-[90px] min-h-[40px]">
-                  <Image
-                    src="/profile/1.webp"
-                    alt="Logotipo"
-                    width={50}
-                    height={50}
-                    className="rounded-full border-2 border-colors-mainWhite absolute"
-                  />
-                  <Image
-                    src="/profile/2.webp"
-                    alt="Logotipo"
-                    width={50}
-                    height={50}
-                    className="rounded-full border-2 border-colors-mainWhite absolute left-6"
-                  />
-                  <Image
-                    src="/profile/3.webp"
-                    alt="Logotipo"
-                    width={50}
-                    height={50}
-                    className="rounded-full border-2 border-colors-mainWhite absolute left-11"
-                  />
-                </div>
-                <p className="text-colors-mainGray400 ml-4 font-medium">
-                  Mais de 500+ clientes <br /> satisfeitos
-                </p>
-              </div> */}
-
               <div className="min-w-[366px] flex gap-9 mb-9">
                 <Button href="#form" styleType="1" maxWidth={200} redirect="">
                   Formulário

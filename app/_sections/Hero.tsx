@@ -29,36 +29,7 @@ export default function Hero() {
           <Button href="/vagas" styleType="2" maxWidth={130} redirect=''>
             Vagas
           </Button>
-        </div>
-        {/* <div className="flex">
-          <div className="flex relative min-w-[90px] min-h-[40px]">
-            <Image
-              src="/profile/1.webp"
-              alt="Logotipo"
-              width={50}
-              height={50}
-              className="rounded-full border-2 border-colors-mainWhite absolute"
-            />
-            <Image
-              src="/profile/2.webp"
-              alt="Logotipo"
-              width={50}
-              height={50}
-              className="rounded-full border-2 border-colors-mainWhite absolute left-6"
-            />
-            <Image
-              src="/profile/3.webp"
-              alt="Logotipo"
-              width={50}
-              height={50}
-              className="rounded-full border-2 border-colors-mainWhite absolute left-11"
-            />
-          </div>
-          <p className="text-colors-mainGray400 ml-4 font-medium">
-            Mais de 500+ clientes <br /> satisfeitos
-          </p>
-        </div> */}
-        
+        </div> 
       </div>
     </section>
   )

@@ -37,7 +37,7 @@ const EquipeCard: React.FC<EquipeCardProps> = ({
           <p className="z-10 max-lg:text-base">{feedback}</p>
         </div>
         <div className="flex justify-center items-center  bg-gradient-to-r from-colors-mainGray600 to-colors-mainGray200 p-2 rounded-md shadow-md gap-4 max-md:flex-col">
-          <div className='flex flex-col items-center justify-center'>
+          <div className='flex flex-col items-center justify-center w-full'>
             <Image
               src={image}
               alt="Profile"
