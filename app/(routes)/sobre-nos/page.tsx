@@ -121,16 +121,16 @@ export default function SobreNos () {
                       prof="Consultor de Carreira"
                       descProf="Administrador, formado pela UNISEB COC/FGV. Desde 2010 atuo na área e trago comigo experiencias em empresas de diversos ramos e tendo ocupado cargos de Comprador, Assistente Adm. Comercial e Logístico, Coordenador de Eventos e Vendas de Multipropriedades."
                       image="/profile/a2.webp"
-                      feedback="“A base para a execução de um serviço de assessoria pessoal personalizada que beire a excelência parte de uma estruturação empresarial e uma cultura organizacional bem definida aonde a busca é sempre pela transparência, profissionalismo e a humanização dos nossos processos do início ao fim, com foco total no resultado final e realização profissional de nossos clientes”"
+                      feedback="“A base para a execução de um serviço de assessoria personalizado que beire a excelência parte de uma estruturação empresarial e uma cultura organizacional bem definida aonde a busca é sempre pela transparência, profissionalismo e a humanização dos nossos processos do início ao fim, com foco total no resultado final e satisfação completa dos nos clientes.”"
                     />
                   </CarouselItem>
                   <CarouselItem>
                     <EquipeCard
                       name="Ígor N. Fernandes"
                       prof="Especialista em Recrutamento"
-                      descProf="Psicólogo, com especialização em saúde mental e liderança para gestão de pessoas. Atuo no ramo de Recursos Humanos desde o ano de 2013, tendo passado por empresas de call-center, consultorias e tecnologia, tanto nacionais quanto multinacionais. Especialista no subsistema de Recrutamento e Seleção e na área de Recolocação Profissional."
+                      descProf="Psicólogo graduado pelo Centro Universitário Barão de Mauá, possuo também MBA em Coaching e Liderança para Gestão de Pessoas e uma Pós-Graduação em Psicologia Saúde Mental, ambos realizados na Faculdade Metropolitana."
                       image="/profile/a1.webp"
-                      feedback="“Quando trabalhamos com pessoas, estamos lidando com sonhos e objetivos pessoais e/ou profissionais variados, isso fez com que eu sempre buscasse humanizar meus processos, com foco primeiramente em entender a necessidade e o perfil de cada indivíduo para então assim direcionar e alinhar tudo ao objetivo profissional final almejado pelo mesmo”"
+                      feedback="“Ao longo da carreira pude ter experiências em alguns dos subsistemas de RH, tendo atuação relevante e sólida dentro de recrutamento e seleção de pessoas. Atuei em empresas de diversos portes nacionais e multinacionais, conduzindo de maneira end to end os processos seletivos.”"
                     />
                   </CarouselItem>
                 </CarouselContent>
