@@ -71,7 +71,7 @@ export default function Footer() {
         </div>
 
         <div className="flex justify-between text-xs max-w-[1400px] mx-auto max-lg:flex-col max-lg:items-center text-colors-mainGray400 py-1">
-          <p>Recruta F&C © 2023 – Todos os direitos reservados</p>
+          <p>Recruta F&C © 2024 – Todos os direitos reservados</p>
           <p>
             Desenvolvido por
             <a

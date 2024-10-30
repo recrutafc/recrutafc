@@ -1,5 +1,4 @@
 import {
-  FacebookLogo,
   WhatsappLogo,
   LinkedinLogo,
 } from '@phosphor-icons/react/dist/ssr'
@@ -10,13 +9,6 @@ export default function SocialLinks() {
     <div className="text-colors-mainGray200 flex gap-9">
       <Link href="https://www.linkedin.com/company/recruta-fc/" target="_blank" aria-label='Botão ir para linkedIn'>
         <LinkedinLogo
-          size={32}
-          weight="fill"
-          className="hover:text-colors-mainWhite delay-150 ease-in-out"
-        />
-      </Link>
-      <Link href="https://www.facebook.com/profile.php?id=61557708250068" target="_blank" aria-label='Botão ir para Facebook'>
-        <FacebookLogo
           size={32}
           weight="fill"
           className="hover:text-colors-mainWhite delay-150 ease-in-out"

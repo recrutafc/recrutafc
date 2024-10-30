@@ -51,8 +51,8 @@ export default function SelectionPage () {
     },
     {
       id:4,
-      title: 'Entrevista Individual',
-      description: 'Conduzimos entrevistas individuais detalhadas para avaliar as habilidades, experiências e adequação cultural dos candidatos.',
+      title: 'Entrevistas Individuais e em Grupo',
+      description: 'Realizamos entrevistas individuais e em grupo para avaliar com profundidade as habilidades, experiências e a compatibilidade dos candidatos com a cultura da empresa.',
     },
   ]
 
