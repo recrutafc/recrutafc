@@ -18,7 +18,7 @@ const EquipeCard: React.FC<EquipeCardProps> = ({
   return (
     <div className="flex items-center justify-center p-4 rounded-lg cursor-grab">
       <div>
-        <div className="text-gray-600 text-2xl max-w-[800px] text-center mb-9 relative">
+        <div className="text-gray-600 text-2xl max-w-[800px] text-center mb-9 relative min-h-[192px]">
           <Image
             src="/assets/asp1.svg"
             alt="Image"

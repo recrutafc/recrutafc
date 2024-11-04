@@ -118,8 +118,8 @@ export default function SobreNos () {
                   <CarouselItem>
                     <EquipeCard
                       name="Gustavo P. Castro"
-                      prof="Consultor de Carreira"
-                      descProf="Administrador, formado pela UNISEB COC/FGV. Desde 2010 atuo na área e trago comigo experiencias em empresas de diversos ramos e tendo ocupado cargos de Comprador, Assistente Adm. Comercial e Logístico, Coordenador de Eventos e Vendas de Multipropriedades."
+                      prof="Consultor de RH"
+                      descProf="Administrador, formado pela UNISEB COC/FGV. Desde 2010 atuante na área e trazendo consigo experiencias em empresas de diversos ramos tendo ocupado cargos de Comprador, Assistente Adm. Comercial e Logístico, Coordenador de Eventos e Vendas de Multipropriedades."
                       image="/profile/a2.webp"
                       feedback="“A base para a execução de um serviço de assessoria personalizado que beire a excelência parte de uma estruturação empresarial e uma cultura organizacional bem definida aonde a busca é sempre pela transparência, profissionalismo e a humanização dos nossos processos do início ao fim, com foco total no resultado final e satisfação completa dos nos clientes.”"
                     />
@@ -127,8 +127,9 @@ export default function SobreNos () {
                   <CarouselItem>
                     <EquipeCard
                       name="Ígor N. Fernandes"
-                      prof="Especialista em Recrutamento"
-                      descProf="Psicólogo graduado pelo Centro Universitário Barão de Mauá, possuo também MBA em Coaching e Liderança para Gestão de Pessoas e uma Pós-Graduação em Psicologia Saúde Mental, ambos realizados na Faculdade Metropolitana."
+                      prof="Especialista em Recrutamento e Seleção"
+                      descProf="Psicólogo graduado pelo Centro Universitário Barão de Mauá, com MBA em Coaching e Liderança para Gestão de Pessoas e Pós-graduado pela Faculdade Metropolitana.
+Com uma trajetória profissional sólida, acumulou experiências significativas nos diversos subsistemas de Recursos Humanos, destacando-se no subsistema de Recrutamento e Seleção."
                       image="/profile/a1.webp"
                       feedback="“Ao longo da carreira pude ter experiências em alguns dos subsistemas de RH, tendo atuação relevante e sólida dentro de recrutamento e seleção de pessoas. Atuei em empresas de diversos portes nacionais e multinacionais, conduzindo de maneira end to end os processos seletivos.”"
                     />
