@@ -4,11 +4,13 @@ import Button from "@/app/_components/Button";
 import Form from "@/app/_components/Form";
 import ServiceTitle from "@/app/_components/ServiceTitle";
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/app/_components/ui/carousel";
-import { ArrowLeft, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import { ArrowLeft, Target, TrendUp, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 import Image from "next/image";
 import Link from "next/link";
 import Autoplay from "embla-carousel-autoplay"
 import EquipeCard from "@/app/_components/EquipeCard";
+import AttributeCard from "@/app/_components/AttributeCard";
+import { HandHeart } from "@phosphor-icons/react";
 
 export default function SobreNos () {
   return (<>
@@ -66,14 +68,30 @@ export default function SobreNos () {
 
           <div className="flex flex-col items-center justify-center py-4">
             <span className="flex flex-col items-start">
-              <ServiceTitle>Missão</ServiceTitle> 
+              <ServiceTitle>Quem somos?</ServiceTitle> 
             </span>
-            <h2 className="text-3xl font-extrabold mb-6 max-lg:text-2xl text-colors-mainBlue900 uppercase">
-              Nossa Missão
-            </h2>
-            <p className="text-xl max-w-[1100px] text-center text-colors-mainGray400 mb-9 max-lg:text-base">
-              Nossa missão é facilitar e agilizar o processo de contratação, proporcionando às empresas acesso rápido e eficiente aos melhores talentos do mercado. Com uma abordagem personalizada, também oferecemos consultoria especializada em recursos humanos, garantindo que nossas soluções sejam sempre alinhadas às necessidades específicas de cada cliente, resultando em contratações assertivas e de qualidade. 
+            <p className="text-xl max-w-full text-center text-colors-mainGray400 mb-[72px] max-lg:text-base">
+              A Recruta F&C surge como resultado de uma parceria de cooperação entre os amigos e agora sócios, Ígor N. Fernandes e Gustavo P. Castro. Unindo forças, ambos unidos com o desejo empreendedor de realizar sonhos, oferecendo oportunidades destacadas no mercado de trabalho e excelência em serviços de assessoria empresarial no campo de Recursos Humanos.
             </p>
+
+            <div className="grid grid-cols-3 gap-4 mb-[74px] max-md:grid-cols-1 ">
+              <AttributeCard
+                text="Nossa missão é ajudar empresas e profissionais a alcançar seus objetivos com um trabalho humanizado, transparente e personalizado. Solucionamos desafios de Recrutamento e Seleção, promovendo qualidade de vida e desenvolvimento para quem busca recolocação no mercado."
+                title="Missão"
+                icon={<Target size={32} />}
+              />
+              <AttributeCard
+                text="Sempre seremos reconhecidos como uma empresa em constante evolução no cenário de prestação de serviços de RH. Nosso objetivo é atingir a excelência e estabelecer-nos como referência em assessoria empresarial e profissional no âmbito do RH terceirizado."
+                title="Visão"
+                icon={<TrendUp size={32} />}
+              />
+              <AttributeCard
+                text="Orientamo-nos pela necessidade das pessoas e dos parceiros, sempre mantendo o profissionalismo, agilidade, flexibilidade, humanização, cordialidade, ética e respeito como pilares fundamentais de nossa atuação"
+                title="Valores"
+                icon={<HandHeart size={32} />}
+              />
+            </div>
+
 
             <div className="p-[50px]">
               <div className="relative">
@@ -100,9 +118,9 @@ export default function SobreNos () {
             <div className="max-w-[1400px] mx-auto py-[50px]">
               <div className="flex flex-col justify-center items-center">
                 <ServiceTitle>Equipe</ServiceTitle>
-                <h2 className="text-3xl font-extrabold mb-6 max-lg:text-3xl text-colors-mainBlue900 uppercase">
+                {/* <h2 className="text-3xl font-extrabold mb-6 max-lg:text-3xl text-colors-mainBlue900 uppercase">
                   Nossa Equipe
-                </h2>
+                </h2> */}
               </div>
               <Carousel className="max-w-[1400px] mx-auto" 
                   opts={{

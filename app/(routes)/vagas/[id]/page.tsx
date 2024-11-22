@@ -31,8 +31,8 @@ export default function VagaDetailsPage({
 
   return (
     <main className="px-4 text-colors-mainBlue900 bg-[url('/bg-pattern.svg')] bg-center bg-no-repeat">
-      <div className="flex py-9 gap-4 justify-between max-w-[1400px] mx-auto max-sm:flex-col">
-        <div className="max-w-[400px] max-h-[700px] bg-colors-mainBlue900 rounded-lg shadow-md relative p-[60px] max-sm:min-w-full">
+      <div className="flex py-9 gap-4 justify-between max-w-[1400px] mx-auto max-md:flex-col">
+        <div className="max-w-[400px] max-h-[700px] bg-colors-mainBlue900 rounded-lg shadow-md relative p-[60px] max-md:min-w-full xl:min-w-[400px] md:min-w-[400px]">
           <Image
             src="/assets/rectangle2.svg"
             alt="asset"
@@ -76,7 +76,7 @@ export default function VagaDetailsPage({
 
           <div>
             {!vaga ? (
-              <p className="min-w-full">Carregando...</p>
+              <p className="min-w-[984px]">Carregando...</p>
             ) : (
               <>
                 <h1 className="text-2xl font-bold mb-2">
