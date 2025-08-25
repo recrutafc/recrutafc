@@ -1,18 +1,42 @@
 import type { Metadata } from 'next'
-import { Open_Sans as OpenSans } from 'next/font/google'
-import './_styles/globals.css'
-import Header from './_components/Header'
-import Footer from './_components/Footer'
+import { Open_Sans as Sans } from 'next/font/google'
+import './globals.css'
+import Footer from '@/components/Footer'
 
-const openSans = OpenSans({
-  weight: ['300', '400', '500', '700', '800'],
+const geistSans = Sans({
+  variable: '--font-geist-sans',
   subsets: ['latin'],
 })
 
 export const metadata: Metadata = {
   title: 'Recruta F&C',
-  description: 'A Recruta F&C é uma empresa de recrutamento e seleção em Ribeirão Preto, São Paulo. Conectamos empresas com os melhores talentos do mercado para formar equipes de alta performance.',
+  description:
+    'A Recruta F&C é uma empresa de recrutamento e seleção em Ribeirão Preto, São Paulo. Conectamos empresas com os melhores talentos do mercado para formar equipes de alta performance.',
   icons: '/favicon.webp',
+  openGraph: {
+    title: 'Recruta F&C',
+    description:
+      'Conectamos empresas com os melhores talentos do mercado para formar equipes de alta performance.',
+    url: 'https://www.recrutafc.com.br/og-image.avif',
+    siteName: 'Recruta F&C',
+    images: [
+      {
+        url: 'https://www.recrutafc.com.br/og-image.avif',
+        width: 1200,
+        height: 630,
+        alt: 'Imagem OG padrão',
+      },
+    ],
+    locale: 'pt_BR',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Recruta F&C',
+    description:
+      'Conectamos empresas com os melhores talentos do mercado para formar equipes de alta performance.',
+    images: ['/og-image.avif'],
+  },
 }
 
 export default function RootLayout({
@@ -21,9 +45,8 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
-      <body className={`${openSans.className} subpixel-antialiased`}>
-        <Header />
+    <html lang="pt_BR">
+      <body className={`${geistSans.variable} antialiased`}>
         {children}
         <Footer />
       </body>

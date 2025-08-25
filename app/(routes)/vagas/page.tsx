@@ -1,15 +1,15 @@
 'use client'
 
 import { useEffect, useState } from 'react'
-import client from '../../lib/contentful'
-import { ArrowLeft, Bag, Buildings, MapPin } from '@phosphor-icons/react/dist/ssr'
+import { Bag, Buildings, MapPin } from '@phosphor-icons/react/dist/ssr'
 import Link from 'next/link'
-import Image from 'next/image'
-import SocialLinks from '@/app/_components/SocialLinks'
+import client from '@/lib/contentful'
+import Flyer from '@/components/Flyer'
 
 const ITEMS_PER_PAGE = 12
 
 export default function Vagas() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [vagas, setVagas] = useState<any[]>([])
   const [currentPage, setCurrentPage] = useState(1)
   const [totalPages, setTotalPages] = useState(0)
@@ -45,69 +45,31 @@ export default function Vagas() {
   }
 
   return (
-    <main className="px-4 bg-[url('/bg-pattern.svg')] bg-center bg-no-repeat">
-      <div className="max-w-[1400px] mx-auto text-colors-mainBlue900 flex py-9 gap-4 justify-between max-sm:flex-col">
-        <div className="max-w-[400px] max-h-[700px] bg-colors-mainBlue900 rounded-lg shadow-md relative p-[60px] max-sm:min-w-full">
-          <Image
-            src="/assets/rectangle2.svg"
-            alt="asset"
-            width={60}
-            height={60}
-            className="absolute top-4 left-4"
-          />
-          <Image
-            src="/assets/rectangle2.svg"
-            alt="asset"
-            width={60}
-            height={60}
-            className="absolute bottom-4 right-4"
-          />
-          <h3 className="text-colors-mainWhite text-3xl font-bold py-4">
-            Você está<br /> pronto para <br /> dar o
-            <span className="text-colors-mainGray600"> próximo passo</span> na
-            sua carreira?
-          </h3>
-          <p className="text-colors-mainGray400 mb-4">
-            Conecte-se a novas oportunidades e dê um impulso à sua carreira com
-            as vagas que preparamos para você!
-          </p>
+    <main className="px-4">
+      <div className="max-w-[1400px] mx-auto text-slate900 flex py-9 gap-4 justify-between max-xl:flex-col">
+        <Flyer />
 
-          <div>
-            <h3 className="text-xl text-colors-mainWhite font-bold uppercase mb-4">
-              Siga Recruta F&C
-            </h3>
-            <SocialLinks />
-          </div>
-        </div>
-
-        <div className="flex flex-col justify-between w-full">
-          <div>
-            <Link
-              href="/"
-              className="flex items-center w-fit hover:text-colors-mainGray600 delay-150 ease-in-out mb-4"
-            >
-              <ArrowLeft size={16} className="mr-1" />
-              Voltar
-            </Link>
-
+        <div className="w-full flex flex-col justify-between">
+          <div className="mb-4">
             {vagas.length === 0 ? (
-              <div className="flex flex-col items-center justify-center text-center py-10">
-                <h2 className="text-xl font-bold">
-                  Nenhuma vaga disponível no momento
-                </h2>
-                <p className="text-colors-mainGray400 mt-2">
-                  Continue acompanhando para novas oportunidades.
-                </p>
+              <div className="flex justify-center items-center min-h-[595px] text-center p-4 rounded-lg border border-dashed border-gray-400 text-gray-400">
+                <div>
+                  <h3 className=" font-bold">
+                    Nenhuma vaga disponível no momento
+                  </h3>
+                  <p>Continue acompanhando para novas oportunidades.</p>
+                </div>
               </div>
             ) : (
-              <ul className="grid grid-cols-3 gap-4 max-xl:grid-cols-2 max-lg:grid-cols-1 mb-4 h-full">
+              <ul className="grid grid-cols-3 gap-4 max-xl:grid-cols-2 max-lg:grid-cols-1 h-full">
+                {/* eslint-disable-next-line @typescript-eslint/no-explicit-any */}
                 {vagas.map((vaga: any) => (
                   <li key={vaga.sys.id}>
                     <Link
-                      className="flex flex-col min-h-[133px] justify-between p-4 hover:brightness-110 delay-150 ease-in-out rounded-lg bg-gradient-to-b hover:shadow-md from-colors-mainWhite to-colors-mainGray200 shadow-md"
+                      className="flex flex-col justify-between min-h-full shadow p-4 hover:brightness-110 delay-150 ease-in-out rounded-lg bg-gradient-to-t from-slate400 to-slate50"
                       href={`/vagas/${vaga.sys.id}`}
                     >
-                      <h3 className="font-bold">
+                      <h3 className="font-bold mb-2">
                         [#{vaga.fields.id}] {vaga.fields.title}
                       </h3>
 
@@ -125,24 +87,29 @@ export default function Vagas() {
                           ) : (
                             ''
                           )}
+                        </div>
+                        <div>
                           {vaga.fields.workModel !== undefined ? (
-                            <span className="flex items-center">
+                            <span className="flex items-center text-xs mb-2">
                               <Buildings size={16} className="mr-2" />
                               {vaga.fields.model ? 'Híbrido' : 'Remoto'}
                             </span>
                           ) : (
-                            <span className="flex items-center">
+                            <span className="flex items-center text-xs mb-2">
                               <Buildings size={16} className="mr-2" />
                               Presencial
                             </span>
                           )}
+
+                          <span className="flex border-t-[1px] border-gray-400 pt-2 text-xs">
+                            Publicada em:{' '}
+                            {vaga.sys.createdAt
+                              ? new Date(
+                                  vaga.sys.createdAt,
+                                ).toLocaleDateString()
+                              : ''}
+                          </span>
                         </div>
-                        <span className="flex border-t-[1px] border-colors-mainGray400 pt-2 text-xs">
-                          Publicada em:{' '}
-                          {vaga.sys.createdAt
-                            ? new Date(vaga.sys.createdAt).toLocaleDateString()
-                            : ''}
-                        </span>
                       </div>
                     </Link>
                   </li>
@@ -151,9 +118,9 @@ export default function Vagas() {
             )}
           </div>
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center text-xs">
             <button
-              className="mr-4 disabled:text-colors-mainGray600"
+              className="mr-4 disabled:text-gray-400 cursor-pointer"
               onClick={prevPage}
               disabled={currentPage === 1}
             >
@@ -161,7 +128,7 @@ export default function Vagas() {
             </button>
             <span className="w-[150px] flex justify-center">{` Página ${currentPage} de ${totalPages} `}</span>
             <button
-              className="ml-4 disabled:text-colors-mainGray600"
+              className="ml-4 disabled:text-gray-400 cursor-pointer"
               onClick={nextPage}
               disabled={currentPage === totalPages}
             >
