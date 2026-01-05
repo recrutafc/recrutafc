@@ -20,18 +20,19 @@ export default function Services() {
             <h1 className="text-5xl mb-6 max-md:text-3xl text-slate900">
               Como funciona nosso <br />
               <span className="font-bold italic">processo</span> de{' '}
-              <span className="font-bold italic">recolocação?</span>
+              <span className="font-bold italic">Transição Profissional?</span>
             </h1>
             <p className="text-gray-500 mb-9">
-              Na Recruta F&C, transformamos mudanças de carreira em
-              oportunidades reais de crescimento. Com uma abordagem estratégica,
-              ajudamos no desenvolvimento de habilidades, no direcionamento
-              certo e na conexão com oportunidades alinhadas ao seu perfil. O
-              resultado é uma transição rápida, fluida e cheia de novos
-              caminhos.
+              Na Recruta F&C, apoiamos profissionais em momentos de transição de
+              carreira, transformando mudanças em decisões conscientes e bem
+              direcionadas. Atuamos no desenvolvimento de novas habilidades, no
+              reposicionamento profissional e na conexão com oportunidades que
+              realmente fazem sentido para cada perfil. O resultado é uma
+              transição segura, consistente e com perspectivas reais de
+              crescimento.
             </p>
             <Link
-              href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre Recolocação Profissional."
+              href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre Transição Profissional."
               target="_blank"
               className="block text-slate900 font-bold underline mb-[80px] w-fit hover:text-slate500 delay-150 ease-in-out transition-colors"
             >

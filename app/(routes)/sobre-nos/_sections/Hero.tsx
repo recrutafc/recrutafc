@@ -19,10 +19,10 @@ export default function Hero() {
               Sobre nós
             </h1>
             <p className="text-gray-500 mb-9">
-              A Recruta RH oferece soluções completas em recrutamento e seleção,
-              atuando como uma ponte estratégica entre empresas e profissionais
-              no interior do estado de São Paulo, com foco na região de Ribeirão
-              Preto.
+              A Recruta F&C oferece soluções completas em recrutamento e
+              seleção, atuando como uma ponte estratégica entre empresas e
+              profissionais no interior do estado de São Paulo, com foco na
+              região de Ribeirão Preto.
             </p>
             <Button variant="secondary" className="w-[200px]" asChild>
               <Link
@@ -34,12 +34,13 @@ export default function Hero() {
             </Button>
           </div>
 
-          <div className="relative w-[588px] h-[488px]">
+          <div className="relative w-[588px] h-[488px] max-md:hidden">
             <Image
               src="/about/1.avif"
               width={488}
               height={531}
               alt="logo"
+              priority
               className="rounded-full border-32 border-slate900"
             />
             <span className="-z-10 absolute right-0 -top-9 w-[487px] h-[487px] rounded-full bg-slate500"></span>

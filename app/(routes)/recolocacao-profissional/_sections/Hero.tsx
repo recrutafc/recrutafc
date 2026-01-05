@@ -10,7 +10,7 @@ export default function Hero() {
         <div className="flex flex-col justify-center text-center items-center mb-[75px]">
           <Title>Bem vindo (a)</Title>
           <h1 className="text-5xl font-extrabold italic text-slate900 mb-6 max-md:text-3xl">
-            Recolocação e Transição Profissional
+            Transição Profissional
           </h1>
           <p className="text-slate900 mb-9">
             Não é apenas buscar um novo emprego. É reinventar sua carreira,
@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
           <Button variant="secondary" className="w-[200px]" asChild>
             <Link
-              href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre Recolocação Profissional."
+              href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre Transição Profissional."
               target="_blank"
             >
               Entrar em contato

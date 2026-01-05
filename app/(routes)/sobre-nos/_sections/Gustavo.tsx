@@ -12,22 +12,24 @@ export default function Gustavo() {
               Gustavo P. Castro
             </h1>
             <p className="text-gray-500 mb-9">
-              Administrador, formado pela UNISEB COC/FGV. Desde 2010 atuante na
-              área e trazendo consigo experiencias em empresas de diversos ramos
-              tendo ocupado cargos de Comprador, Assistente Adm. Comercial e
-              Logístico, Coordenador de Eventos e Vendas de Multipropriedades.
+              Administrador, formado pela UNISEB COC/FGV, com atuação
+              profissional desde 2010. Possui sólida experiência em empresas de
+              diversos segmentos, com atuação estratégica nas áreas
+              administrativa, compras, comercial e logística, além de
+              coordenação de eventos, sempre com foco em resultados e eficiência
+              operacional.
             </p>
           </div>
         </div>
-        <div className="pl-58">
+        <div className="pl-58 max-md:pl-20">
           <div className="bg-gradient-to-b from-slate500 to-slate500/80 justify-center items-center min-h-full p-4 flex max-w-[350px] relative max-lg:rounded-t-lg">
             <p className="text-slate900">
-              “A base para a execução de um serviço de assessoria personalizado
-              que beire a excelência parte de uma estruturação empresarial e uma
-              cultura organizacional bem definida aonde a busca é sempre pela
-              transparência, profissionalismo e a humanização dos nossos
-              processos do início ao fim, com foco total no resultado final e
-              satisfação completa dos nos clientes.”
+              “Acredito muito que um bom serviço de assessoria vai além do
+              processo em si. Ele começa com organização, clareza e uma cultura
+              bem definida. Nosso dia a dia é pautado pela transparência, pelo
+              profissionalismo e pelo cuidado com as pessoas, acompanhando cada
+              etapa de perto para garantir bons resultados e a satisfação de
+              quem confia no nosso trabalho.”
             </p>
 
             <Image
@@ -35,7 +37,7 @@ export default function Gustavo() {
               width={345}
               height={540}
               alt="gustavo"
-              className="absolute -left-58 -z-20 bottom-0 max-lg:max-w-[200px]"
+              className="absolute -left-58 -z-20 bottom-0 max-lg:max-w-[200px] max-md:-left-30"
             />
           </div>
         </div>

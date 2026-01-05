@@ -14,7 +14,7 @@ export default function Clients() {
         <p className="text-gray-500 mb-[80px]">
           Muitos profissionais já confiam na Recruta F&C para dar o próximo
           passo na carreira. Faça parte desse grupo e descubra como podemos{' '}
-          <br /> ajudar você a se recolocar, encontrar oportunidades alinhadas
+          <br /> ajudar você a transicionar e encontrar oportunidades alinhadas
           ao seu perfil e conquistar seu lugar no mercado.
         </p>
         <AnimateMarquee />

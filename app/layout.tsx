@@ -45,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="pt_BR">
       <body className={`${geistSans.variable} antialiased`}>
         {children}
         <Footer />

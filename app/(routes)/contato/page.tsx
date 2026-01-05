@@ -8,19 +8,26 @@ import { Envelope, WhatsappLogo } from '@phosphor-icons/react/dist/ssr'
 
 const faqItems = [
   {
-    question: 'Como minha empresa pode se cadastrar para receber talentos?',
+    question: 'Como minha empresa pode potencializar o Recrutamento e Seleção?',
     answer:
       'Basta entrar em contato com a nossa equipe pelo formulário, e-mail ou telefone. Vamos entender suas necessidades e iniciar o processo de busca personalizada.',
   },
   {
-    question: 'Quanto tempo leva para receber os primeiros perfis?',
+    question:
+      'Quais os métodos utilizados para Atração e Seleção de candidatos?',
     answer:
-      'O prazo varia de acordo com o nível e a complexidade da vaga, mas geralmente enviamos os primeiros candidatos qualificados em poucos dias.',
+      'Utilizamos uma variedade de canais e estratégias de marketing para garantir uma ampla divulgação da vaga e atrair candidatos qualificados, inclusive o hunting ativo.',
   },
   {
-    question: 'Vocês só buscam candidatos que já estão procurando emprego?',
+    question:
+      'Quais as qualificações necessárias para conseguir meu novo emprego?',
     answer:
-      'Não. Também fazemos hunting ativo, abordando profissionais que não estão necessariamente no mercado, mas que podem ser o match perfeito para sua vaga.',
+      'Depende da vaga. Temos oportunidades do nível  júnior ao sênior. Fique atento ao requisitos mínimos solicitados em cada vaga e escolha aquela que faça sentido de acordo com as suas experiências',
+  },
+  {
+    question: 'Quanto tempo leva para receber os primeiros perfis?',
+    answer:
+      'O prazo varia conforme o nível e a complexidade da vaga. Pode ficar tranquilo: um dos nossos principais diferenciais é a agilidade aliada à assertividade.',
   },
   {
     question: 'Como é feita a seleção dos candidatos?',
@@ -28,20 +35,9 @@ const faqItems = [
       'Fazemos uma triagem completa: análise de perfil, entrevista, checagem de referências e alinhamento de expectativas antes de apresentar para sua empresa.',
   },
   {
-    question: 'Preciso assinar contrato para iniciar a busca?',
-    answer:
-      'Sim, após a etapa inicial de alinhamento e definição do perfil, formalizamos o contrato para dar início ao processo de seleção e entrega dos candidatos.',
-  },
-
-  {
     question: 'Como funciona o processo de recrutamento na empresa?',
     answer:
       'Nosso processo é ágil e transparente. Recebemos seu currículo, analisamos seu perfil e, se houver match com a vaga, entramos em contato para as próximas etapas.',
-  },
-  {
-    question: 'Preciso ter experiência para participar dos processos?',
-    answer:
-      'Depende da vaga. Temos oportunidades para diferentes níveis — do iniciante ao sênior. O mais importante é seu potencial e vontade de aprender.',
   },
   {
     question: 'Como posso me candidatar a uma vaga?',
@@ -56,7 +52,7 @@ const faqItems = [
   {
     question: 'Posso me inscrever para mais de uma vaga?',
     answer:
-      'Com certeza! Se seu perfil se encaixa em mais de uma oportunidade, pode se candidatar sem problemas. Isso até aumenta suas chances.',
+      'Com certeza! Porém leia com atenção as informações da vaga e de preferência naquela que atenda as suas atuais expectativas profissionais.',
   },
 ]
 
@@ -80,7 +76,7 @@ export default function Contato() {
             <div className="flex justify-between max-md:flex-col max-md:gap-4">
               <h2 className="font-bold">Outros</h2>
 
-              <div className="flex gap-9">
+              <div className="flex gap-9 max-md:gap-4 max-md:flex-col">
                 <div className="flex items-center gap-2">
                   <WhatsappLogo size={20} />
                   <p>(16) 9 9609-3789</p>

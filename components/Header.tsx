@@ -64,7 +64,7 @@ export default function Header() {
                     onClick={() => setIsDropdownOpen(false)}
                     className="block px-4 py-4 hover:bg-slate-700 hover:text-white cursor-pointer rounded-md transition-colors"
                   >
-                    Recolocação e Transição Profissional
+                    Transição Profissional
                   </Link>
                 </li>
               </ul>
@@ -119,7 +119,7 @@ export default function Header() {
             className="px-4 py-4 hover:bg-slate-700 delay-150 ease-in-out rounded-md transition-colors"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Recolocação e Transição Profissional
+            Transição Profissional
           </Link>
           <Link
             href="/vagas"

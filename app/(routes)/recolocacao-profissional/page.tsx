@@ -1,5 +1,5 @@
 import OverlayButton from '@/components/OverlayButton'
-import Catch from './_sections/Catch'
+import Catch from '@/components/Catch'
 import Clients from './_sections/Clients'
 import Hero from './_sections/Hero'
 import Services from './_sections/Services'

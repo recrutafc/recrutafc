@@ -61,7 +61,7 @@ export default function Footer() {
                   href="/recolocacao-profissional"
                   className="hover:text-slate500 delay-150 ease-in-out mb-2 transition-colors"
                 >
-                  Recolocação e Transição Profissional
+                  Transição Profissional
                 </Link>
                 <Link
                   href="/contato"

@@ -35,7 +35,7 @@ export default function Services() {
 
           <div className="grid grid-cols-3 gap-4 max-lg:grid-cols-1">
             <AttributeCard
-              text="Nossa missão é ajudar empresas e profissionais a alcançar seus objetivos com um trabalho humanizado, transparente e personalizado. Solucionamos desafios de Recrutamento e Seleção, promovendo qualidade de vida e desenvolvimento para quem busca recolocação no mercado."
+              text="Nossa missão é ajudar empresas e profissionais a alcançar seus objetivos com um trabalho humanizado, transparente e personalizado. Solucionamos desafios de Recrutamento e Seleção, promovendo qualidade de vida e desenvolvimento para quem busca Transição no mercado."
               title="Missão"
               icon={<Target size={32} />}
             />

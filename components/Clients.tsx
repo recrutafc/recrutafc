@@ -4,7 +4,7 @@ import Title from '@/components/Title'
 export default function Clients() {
   return (
     <section className="px-4 bg-slate400">
-      <div className="max-w-[1400px] mx-auto flex flex-col justify-center items-center text-center p-[80px]">
+      <div className="max-w-[1400px] mx-auto flex flex-col justify-center items-center text-center p-[80px] max-md:p-4">
         <Title>Clientes</Title>
         <h1 className="text-5xl text-slate900 mb-6 max-md:text-3xl">
           Junte-se às <span className="font-bold italic">empresas</span> que{' '}

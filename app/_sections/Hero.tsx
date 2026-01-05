@@ -36,7 +36,7 @@ export default function Hero() {
                     Contrate Conosco
                   </Link>
                 </Button>
-                <Button variant="outline" asChild>
+                <Button variant="outline">
                   <Link href="/vagas">Vagas</Link>
                 </Button>
               </div>

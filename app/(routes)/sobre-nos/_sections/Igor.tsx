@@ -5,14 +5,16 @@ export default function Igor() {
   return (
     <section className="relative px-4">
       <div className="max-w-[1400px] mx-auto min-h-[540px] flex justify-between max-lg:flex-col-reverse max-lg:pt-9 max-lg:gap-12">
-        <div className="pr-58">
+        <div className="pr-58 max-md:pr-20">
           <div className="bg-gradient-to-t from-slate500 to-slate500/80 justify-center items-center min-h-full p-4 flex max-w-[350px] relative max-lg:rounded-t-lg">
             <p className="text-slate900">
-              “Ao longo da carreira pude ter experiências em alguns dos
-              subsistemas de RH, tendo atuação relevante e sólida dentro de
-              recrutamento e seleção de pessoas. Atuei em empresas de diversos
-              portes nacionais e multinacionais, conduzindo de maneira end to
-              end os processos seletivos.”
+              “Ao longo da minha trajetória, tive a oportunidade de atuar em
+              diferentes áreas de Recursos Humanos, o que me permitiu construir
+              uma experiência sólida em Recrutamento e Seleção. Passei por
+              empresas de diversos portes, nacionais e multinacionais,
+              conduzindo processos seletivos do início ao fim. Gosto de entender
+              a real necessidade de cada empresa e encontrar profissionais que
+              façam sentido não só tecnicamente, mas também culturalmente.”
             </p>
 
             <Image
@@ -20,7 +22,7 @@ export default function Igor() {
               width={345}
               height={540}
               alt="igor"
-              className="absolute -right-58 -z-20 bottom-0 max-lg:max-w-[200px]"
+              className="absolute -right-58 -z-20 bottom-0 max-lg:max-w-[200px] max-md:-right-24"
             />
           </div>
         </div>
@@ -32,12 +34,12 @@ export default function Igor() {
               Ígor N. Fernandes
             </h1>
             <p className="text-gray-500 mb-9">
-              Psicólogo graduado pelo Centro Universitário Barão de Mauá, com
-              MBA em Coaching e Liderança para Gestão de Pessoas e Pós-graduado
-              pela Faculdade Metropolitana. Com uma trajetória profissional
-              sólida, acumulou experiências significativas nos diversos
-              subsistemas de Recursos Humanos, destacando-se no subsistema de
-              Recrutamento e Seleção.
+              Psicólogo, graduado pelo Centro Universitário Barão de Mauá, com
+              MBA em Coaching e Liderança para Gestão de Pessoas e pós-graduação
+              pela Faculdade Metropolitana. Possui sólida trajetória em Recursos
+              Humanos, com atuação nos diversos subsistemas da área,
+              destacando-se em Recrutamento e Seleção, com foco em excelência
+              nos processos e assertividade nas entregas.
             </p>
           </div>
         </div>

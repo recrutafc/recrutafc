@@ -28,14 +28,15 @@ export default function ServicesRow() {
         <div className="bg-[url('/service2.avif')] bg-no-repeat bg-cover bg-center h-[640px] w-full flex justify-end items-end px-9 flex-col">
           <div>
             <h1 className="text-4xl mb-6 font-bold max-md:text-3xl">
-              Recolocação e Transição Profissional
+              Transição Profissional
             </h1>
             <div className="bg-slate400 rounded-t-lg p-4">
               <p className="mb-4 text-slate900">
-                Oferecemos esse serviço para quem busca sua reinserção no
-                mercado de trabalho e/ou busca uma transição profissional.
-                Adotamos estratégias individuais, entendendo propósitos e
-                objetivos para assim buscarmos o objetivo junto ao assessorado.
+                Oferecemos este serviço para profissionais que desejam realizar
+                uma transição de carreira de forma consciente e bem planejada.
+                Trabalhamos com estratégias individuais, entendendo objetivos,
+                motivações e propósitos para construir, junto ao assessorado, o
+                caminho mais adequado para essa nova fase profissional.
               </p>
               <Button variant="secondary" className="w-full" asChild>
                 <Link href="/recolocacao-profissional">Saiba mais</Link>

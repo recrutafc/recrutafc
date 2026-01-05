@@ -20,7 +20,7 @@ export default function Accordion({ items }: AccordionProps) {
 
   return (
     <div className="w-full mx-auto max-xl:min-w-full">
-      <h3 className="text-4xl font-bold mb-6">Faq</h3>
+      <h3 className="text-4xl font-bold mb-6">Perguntas Frequentes</h3>
       {items.map((item, index) => (
         <div
           key={index}
