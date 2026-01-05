@@ -35,7 +35,7 @@ const faqItems = [
       'Fazemos uma triagem completa: análise de perfil, entrevista, checagem de referências e alinhamento de expectativas antes de apresentar para sua empresa.',
   },
   {
-    question: 'Como funciona o processo de recrutamento na empresa?',
+    question: 'Como funciona o processo de recrutamento na empresa? ',
     answer:
       'Nosso processo é ágil e transparente. Recebemos seu currículo, analisamos seu perfil e, se houver match com a vaga, entramos em contato para as próximas etapas.',
   },
