@@ -52,7 +52,7 @@ const faqItems = [
   {
     question: 'Posso me inscrever para mais de uma vaga?',
     answer:
-      'Com certeza! Porém leia com atenção as informações da vaga e de preferência naquela que atenda as suas atuais expectativas profissionais.',
+      'Com certeza! Porém leia com atenção as informações da vaga e dê preferência àquela que atenda às suas atuais expectativas profissionais.',
   },
 ]
 

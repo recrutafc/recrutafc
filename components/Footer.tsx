@@ -73,7 +73,7 @@ export default function Footer() {
                   href="/contato"
                   className="hover:text-slate500 delay-150 ease-in-out mb-2 transition-colors"
                 >
-                  Faq
+                  Perguntas Frequentes
                 </Link>
               </div>
             </div>
