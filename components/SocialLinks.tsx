@@ -31,7 +31,7 @@ export default function SocialLinks() {
         />
       </Link>
       <Link
-        href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre a Recruta FC."
+        href="https://wa.link/xnrpdi"
         target="_blank"
         aria-label="Botão ir para WhatsApp"
       >

@@ -30,7 +30,7 @@ export default function OverlayButton() {
     <div className="fixed bottom-4 right-4 z-10 flex flex-col gap-4 max-sm:hidden">
       <Link
         target="_blank"
-        href={`https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre a RecrutaF&C.`}
+        href={`https://wa.link/xnrpdi`}
         className="flex items-center text-blue-50 gap-2"
       >
         <p className="bg-gradient-to-b from-green-500 to-green-600 text-blue-50 p-3 rounded-lg font-bold text-xs border shadow">
