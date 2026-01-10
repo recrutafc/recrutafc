@@ -4,9 +4,9 @@ import Hero from './_sections/Hero'
 import Igor from './_sections/Igor'
 import Services from './_sections/Services'
 import Link from 'next/link'
-import Catch from '@/components/Catch'
 import Clients from '@/components/Clients'
 import OverlayButton from '@/components/OverlayButton'
+import Feedbacks from '@/components/Feedbacks'
 
 export default function SobreNos() {
   return (
@@ -29,7 +29,7 @@ export default function SobreNos() {
       <div className="pt-[80px] border-t-[160px] border-slate500">
         <Clients />
       </div>
-      <Catch img="/catch2.avif" />
+      <Feedbacks />
 
       <OverlayButton />
     </main>

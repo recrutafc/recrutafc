@@ -1,8 +1,8 @@
 import OverlayButton from '@/components/OverlayButton'
-import Catch from '@/components/Catch'
 import Clients from './_sections/Clients'
 import Hero from './_sections/Hero'
 import Services from './_sections/Services'
+import Feedbacks from '@/components/Feedbacks'
 
 export default function RecolocaçãoProfissional() {
   return (
@@ -10,7 +10,7 @@ export default function RecolocaçãoProfissional() {
       <Hero />
       <Services />
       <Clients />
-      <Catch img="/catch3.avif" />
+      <Feedbacks />
       <OverlayButton />
     </main>
   )

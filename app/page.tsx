@@ -4,8 +4,8 @@ import Hero from './_sections/Hero'
 import Services from './_sections/Services'
 import ServicesRow from './_sections/ServicesRow'
 import HomeLayout from './home-layout'
-import Catch from '@/components/Catch'
 import Clients from '@/components/Clients'
+import Feedbacks from '@/components/Feedbacks'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
         <Services />
         <ServicesRow />
         <Clients />
-        <Catch img="/catch.avif" />
+        <Feedbacks />
       </div>
     </HomeLayout>
   )
