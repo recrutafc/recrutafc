@@ -25,10 +25,7 @@ export default function Hero() {
               região de Ribeirão Preto.
             </p>
             <Button variant="secondary" className="w-[200px]" asChild>
-              <Link
-                href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre RecrutaF&C."
-                target="_blank"
-              >
+              <Link href="https://wa.link/xnrpdi" target="_blank">
                 Entrar em contato
               </Link>
             </Button>

@@ -22,7 +22,7 @@ const faqItems = [
     question:
       'Quais as qualificações necessárias para conseguir meu novo emprego?',
     answer:
-      'Depende da vaga. Temos oportunidades do nível  júnior ao sênior. Fique atento ao requisitos mínimos solicitados em cada vaga e escolha aquela que faça sentido de acordo com as suas experiências',
+      'Depende da vaga. Temos oportunidades do nível júnior ao sênior. Verifique quais os requisitos solicitados em cada vaga e escolha aquela que dê match com seu perfil e experiências profissionais anteriores',
   },
   {
     question: 'Quanto tempo leva para receber os primeiros perfis?',

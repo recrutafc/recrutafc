@@ -25,7 +25,7 @@ export default function Services() {
               campo de Recursos Humanos.
             </p>
             <Link
-              href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre RecrutaF&C."
+              href="https://wa.link/xnrpdi"
               target="_blank"
               className="block text-slate900 font-bold underline mb-[80px] w-fit hover:text-slate500 delay-150 ease-in-out transition-colors"
             >
