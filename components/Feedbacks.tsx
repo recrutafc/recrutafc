@@ -140,6 +140,12 @@ export default function Feedbacks() {
   return (
     <div className="w-full bg-gradient-to-b from-slate400 to-white">
       <div className="max-w-[1400px] mx-auto py-[80px] px-4">
+        <div className="pb-9">
+          <p className="text-slate900 text-center">
+            Avaliação totalizada <strong>Google 5.0</strong> de 5, com base em
+            <strong> 107 avaliações</strong>
+          </p>
+        </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {currentItems.map((item) => (
             <div key={item.id}>
@@ -184,7 +190,6 @@ export default function Feedbacks() {
             </div>
           ))}
         </div>
-
         <div className="flex justify-center sm:justify-center gap-4 mt-8">
           <button
             onClick={() => setPage((p) => Math.max(p - 1, 0))}

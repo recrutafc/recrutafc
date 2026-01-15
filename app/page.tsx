@@ -6,6 +6,7 @@ import ServicesRow from './_sections/ServicesRow'
 import HomeLayout from './home-layout'
 import Clients from '@/components/Clients'
 import Feedbacks from '@/components/Feedbacks'
+import Cta from '@/components/Cta'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Services />
         <ServicesRow />
         <Clients />
+        <Cta />
         <Feedbacks />
       </div>
     </HomeLayout>

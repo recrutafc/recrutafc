@@ -7,6 +7,7 @@ import Link from 'next/link'
 import Clients from '@/components/Clients'
 import OverlayButton from '@/components/OverlayButton'
 import Feedbacks from '@/components/Feedbacks'
+import Cta from '@/components/Cta'
 
 export default function SobreNos() {
   return (
@@ -26,9 +27,10 @@ export default function SobreNos() {
         </div>
       </div>
       <Igor />
-      <div className="pt-[80px] border-t-[160px] border-slate500">
+      <div className="border-t-[160px] border-slate500">
         <Clients />
       </div>
+      <Cta />
       <Feedbacks />
 
       <OverlayButton />
