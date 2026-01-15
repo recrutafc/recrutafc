@@ -49,11 +49,8 @@ export default function Cta() {
 
           <div className="flex items-center justify-center">
             <Button asChild>
-              <Link
-                href="https://wa.me/5516996093789/?text=Olá, gostaria de saber mais sobre Recrutamento e Seleção."
-                target="_blank"
-              >
-                Contrate Conosco
+              <Link href="https://wa.link/xnrpdi" target="_blank">
+                Saiba mais
               </Link>
             </Button>
           </div>
